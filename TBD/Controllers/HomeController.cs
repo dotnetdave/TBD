@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -10,7 +12,19 @@ namespace TBD.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            FileVersionInfo fvi = FileVersionInfo.GetVersionInfo(assembly.Location);
+            string version = fvi.FileVersion;
+
+            var env = ConfigurationManager.AppSettings["Environment"];
+
+            var model = new IndexViewModelDave()
+            {
+                Version = version,
+                Environment = env
+            };
+
+            return View(model);
         }
 
         public ActionResult About()
@@ -26,5 +40,11 @@ namespace TBD.Controllers
 
             return View();
         }
+    }
+
+    public class IndexViewModelDave
+    {
+        public string Version { get; set; }
+        public string Environment { get; set; }
     }
 }
