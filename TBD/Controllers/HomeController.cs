@@ -10,18 +10,25 @@ namespace TBD.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ICustomerRepository repo;
+
+        public HomeController(ICustomerRepository repo)
+        {
+            this.repo = repo;
+        }
+
+
         public ActionResult Index()
         {
             System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
             FileVersionInfo fvi = FileVersionInfo.GetVersionInfo(assembly.Location);
             string version = fvi.FileVersion;
 
-            var env = ConfigurationManager.AppSettings["Environment"];
 
             var model = new IndexViewModelDave()
             {
                 Version = version,
-                Environment = env
+                Environment = repo.Test()
             };
 
             return View(model);

@@ -80,3 +80,9 @@ c:\users\p124241\documents\visual studio 2015\Projects\TBD\TBD\bin\Microsoft.Owi
 c:\users\p124241\documents\visual studio 2015\Projects\TBD\TBD\obj\Debug\TBD.csprojResolveAssemblyReference.cache
 c:\users\p124241\documents\visual studio 2015\Projects\TBD\TBD\obj\Debug\TBD.dll
 c:\users\p124241\documents\visual studio 2015\Projects\TBD\TBD\obj\Debug\TBD.pdb
+C:\Users\p124241\Documents\Visual Studio 2015\Projects\TBD\TBD\bin\DryIoc.dll
+C:\Users\p124241\Documents\Visual Studio 2015\Projects\TBD\TBD\bin\DryIoc.Mvc.dll
+C:\Users\p124241\Documents\Visual Studio 2015\Projects\TBD\TBD\bin\DryIoc.xml
+C:\Users\p124241\Documents\Visual Studio 2015\Projects\TBD\TBD\bin\DryIoc.Mvc.xml
+C:\Users\p124241\Documents\Visual Studio 2015\Projects\TBD\TBD\bin\DryIoc.Web.dll
+C:\Users\p124241\Documents\Visual Studio 2015\Projects\TBD\TBD\bin\DryIoc.Web.xml
