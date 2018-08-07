@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBD", "TBD\TBD.csproj", "{386FBA99-0F89-458F-8874-6E7213B8A271}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBD.Tests", "TBD.Tests\TBD.Tests.csproj", "{60E0A114-A47F-464C-BC83-4B0C60520CD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{386FBA99-0F89-458F-8874-6E7213B8A271}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{386FBA99-0F89-458F-8874-6E7213B8A271}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{386FBA99-0F89-458F-8874-6E7213B8A271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E0A114-A47F-464C-BC83-4B0C60520CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E0A114-A47F-464C-BC83-4B0C60520CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E0A114-A47F-464C-BC83-4B0C60520CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E0A114-A47F-464C-BC83-4B0C60520CD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
